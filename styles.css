@@ -1,0 +1,20 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+div:nth-child(4)
+{
+    background-color: aquamarine;
+}
+.btn
+{
+    border: 3px solid black;
+    color: rgb(27, 250, 231);
+    height: 50px;
+    width: 50px;
+}
+.btn:active
+{
+    background-color: rgb(215, 238, 9);
+}

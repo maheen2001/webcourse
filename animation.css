@@ -1,0 +1,53 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+}
+.animation
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h1
+{
+    font-size: 3rem;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+@keyframes fadeIn {
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
+.btn
+{
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+    0%,100%{transform: translateY(0);}
+    50%{transform: translateY(-10px);}
+}
